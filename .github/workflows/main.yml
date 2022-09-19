@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: ${{ secrets.BACKUP_REPO }}
+          repository: naomipeck/rbc8
           token: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Setup Node
